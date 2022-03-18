@@ -3,4 +3,6 @@
 
 #include <stdio.h>
 
+int isupper(int);
+
 #endif /* MAIN_H */

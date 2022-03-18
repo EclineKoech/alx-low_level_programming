@@ -8,6 +8,7 @@
  *
  * Return: Always 0.
  */
+int _isdigit(int c);
 
 int main(void)
 {

@@ -10,11 +10,12 @@
 int main(void)
 {
 char c, res;
-res = toupper((unsigned char) c);
+
 
 c = 'A';
 printf("%c: %d\n", c, isupper(c));
 c = 'a';
 printf("%c: %d\n", c, isupper(c));
 return (0);
+res = toupper((unsigned char) c);
 }

@@ -9,10 +9,11 @@
  */
 int main(void)
 {
-char c;
+char c, res;
+res = toupper((unsigned char) c);
 
 c = 'A';
-printf("%c: %d\n", c, isupper(c));
+printf("%c: %d\n", c, isalpha(c));
 c = 'a';
 printf("%c: %d\n", c, isupper(c));
 return (0);

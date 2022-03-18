@@ -8,13 +8,16 @@
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
-    char c;
+    char c, res;
+   res = toupper((unsigned char) c);
 
     c = '0';
     printf("%c: %d\n", c, isdigit(c));
     c = 'a';
     printf("%c: %d\n", c, isdigit(c));
+    
     return (0);
 }

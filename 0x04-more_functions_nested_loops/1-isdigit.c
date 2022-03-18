@@ -4,22 +4,20 @@
 
 
 /**
- * main - check the code
+ * _isdigit - checks for alphabetic character
+ * @c: c is an ascii character
  *
- * Return: Always 0.
+ * Return: 1 (if digit)
  */
 
-int _isdigit(int c);
-
-int main(void)
+int _isdigit(int c)
 {
-char c, res;
-res = toupper((unsigned char) c);
-
-c = '0';
-printf("%c: %d\n", c, isdigit(c));
-c = 'a';
-printf("%c: %d\n", c, isdigit(c));
-
+if (c >= '0' && c <= '9')
+{
+return (1);
+}
+else
+{
 return (0);
+}
 }

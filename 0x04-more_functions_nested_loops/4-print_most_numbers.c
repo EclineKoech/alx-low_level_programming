@@ -12,7 +12,7 @@ int n = '0';
 for (; n <= '9'; n++)
 {
 if (n != '2' && n != '4')
-_putchar(n);
+putchar(n);
 }
-_putchar('\n');
+putchar('\n');
 }

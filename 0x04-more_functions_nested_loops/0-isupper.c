@@ -3,10 +3,12 @@
 #include <ctype.h>
 
 /**
- * main - check the code.
+ * _isupper - checks for uppercase character
+ * @c: c is an ascii character
  *
- * Return: Always 0.
+ * Return: 1 (if uppercase)
  */
+
 int _isupper(int c)
 {
 if (c >= 'A' && c <= 'Z')

@@ -18,7 +18,8 @@ for (i = 1; i <= 98; ++i)
 if (j != 135301852344706746049)
 {
 printf("%ld, ", j);
-} else
+}
+else
 {
 printf("%ld\n", j);
 }

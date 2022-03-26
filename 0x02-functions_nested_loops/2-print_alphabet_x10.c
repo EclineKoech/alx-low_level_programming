@@ -1,20 +1,25 @@
 #include "main.h"
 
 /**
- * add - adds two integers
- * @n1: integer 1
- * @n2: integer 2
+ * print_alphabet_x10 - print (a-x)x10
  *
- * Description: give two integers, returns sum
- *
- * Return: sum
+ * Return: Always zero.
  */
-
-int add(int n1, int n2)
+void print_alphabet_x10(void)
 {
-	int sum;
+int print = 0;
+char x = 'a';
 
-	sum = n1 + n2;
+while (print < 10)
+{
+x = 'a';
+while (x <= 'z')
+{
+_putchar(x);
+x++;
+}
+_putchar('\n');
 
-	return (sum);
+print++;
+}
 }
